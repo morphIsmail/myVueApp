@@ -26,6 +26,7 @@ i.fa {
 .main {
   background-image: url(../img/background__main.jpg);
   background-repeat: repeat-x;
+  background-size: cover;
   animation: slide 90s linear infinite;
 }
 .app {
@@ -218,25 +219,32 @@ i.fa-star {
 }
 .app.results[data-race="zerg"] {
   background-image: url(../img/zerg_bg.jpg);
+  background-size: cover;
 }
 .app.results[data-race="primal"] {
   background-image: url(../img/primal_bg.jpg);
+  background-size: cover;
 }
 .app.results[data-race="terran"] {
   background-image: url(../img/terran_bg.jpg);
+  background-size: cover;
 }
 .app.results[data-race="infested"] {
   background-image: url(../img/infested_bg.jpg);
+  background-size: cover;
 }
 .app.results[data-race="protoss"] {
   background-image: url(../img/protoss_bg.jpg);
+  background-size: cover;
 }
 .app.results[data-race="taldarim"] {
   background-image: url(../img/taldarim_bg.jpg);
+  background-size: cover;
   background-position: 40% 0;
 }
 .app.results[data-race="hybrid"] {
   background-image: url(../img/hybrid_bg.jpg);
+  background-size: cover;
   background-position: 45% 0;
 }
 .btn__zerg {
